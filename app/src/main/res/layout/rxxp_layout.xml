@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sy_bk"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    android:id="@+id/rxxpLinearLayout">
+
+    <ImageView
+        android:id="@+id/sy_shopimg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@color/colorAccent"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/sy_shopname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="11111111"
+        android:gravity="center"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/sy_shopprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="11111111"
+        android:gravity="center"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="#f00"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        />
+
+</LinearLayout>

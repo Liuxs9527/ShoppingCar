@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.ParticularsActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="24dp"
+                >
+
+                <ImageView
+                    android:id="@+id/particulars_back"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@mipmap/back"
+                    />
+
+            </LinearLayout>
+
+            <com.youth.banner.Banner
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="274dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                >
+
+            </com.youth.banner.Banner>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="24dp"
+                >
+
+                <TextView
+                    android:id="@+id/shopxq_price"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="价格"
+                    android:textColor="#f00"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/shopxq_saleNum"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="价格"
+                    android:textColor="#666666"
+                    android:textSize="12sp"
+                    android:gravity="end"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/shopxq_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="20dp"
+                android:text="我是名字"
+                android:textSize="12sp"
+                android:textColor="#666666"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                >
+
+                <TextView
+                    android:id="@+id/shopxq_xq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="商品重量"
+                    android:textColor="#666666"
+                    android:textSize="12sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="#666666"
+                    android:text="0.089kg"
+                    android:layout_marginLeft="10dp"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="商品详情"
+                android:textColor="#666666"
+                android:textSize="20sp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                />
+
+            <WebView
+                android:id="@+id/webView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="24dp"
+                ></WebView>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
